@@ -69,17 +69,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.ico" />
+    <Content Include="AboutBangladesh.aspx" />
+    <Content Include="Aboutbd.css" />
     <Content Include="Again.aspx" />
     <Content Include="Again.css" />
-    <Content Include="Home.aspx" />
+    <Content Include="Ctg_div.css" />
+    <Content Include="Ctg_div.html" />
+    <Content Include="Hardinge.html" />
+    <Content Include="history.css" />
+    <Content Include="history.html" />
     <Content Include="Home.css" />
+    <Content Include="Home.html" />
     <Content Include="Image\1.ico" />
     <Content Include="Image\1.jpg" />
     <Content Include="Image\2.jpg" />
     <Content Include="Image\3.jpg" />
     <Content Include="Image\4.jpg" />
     <Content Include="Image\5.jpg" />
+    <Content Include="Image\6.jpg" />
+    <Content Include="Image\bubble.png" />
     <Content Include="Image\Hidden.png" />
+    <Content Include="Image\home0.jpg" />
+    <Content Include="Image\home1.jpg" />
+    <Content Include="Image\home2.jpg" />
+    <Content Include="Image\home3.jpg" />
     <Content Include="Image\Home\1.JPG" />
     <Content Include="Image\Home\10.jpg" />
     <Content Include="Image\Home\11.jpg" />
@@ -92,17 +105,44 @@
     <Content Include="Image\Home\7.jpg" />
     <Content Include="Image\Home\8.jpg" />
     <Content Include="Image\Home\9.jpg" />
+    <Content Include="Image\Home\ctg\ctgmap.jpg" />
+    <Content Include="Image\Home\ctg\noakhali\noakhali-map.jpg" />
     <Content Include="Image\loading.gif" />
     <Content Include="Image\loading3.gif" />
+    <Content Include="Image\pause.png" />
+    <Content Include="Image\play.png" />
+    <Content Include="Image\Raj div\map.png" />
+    <Content Include="Image\Raj div\pabna\hardinge.jpg" />
+    <Content Include="Image\Raj div\pabna\jolojog.jpg" />
+    <Content Include="Image\Raj div\pabna\mental.jpg" />
+    <Content Include="Image\Raj div\pabna\pabna_map.png" />
     <Content Include="Image\show.png" />
     <Content Include="Login.aspx" />
     <Content Include="Login.css" />
+    <Content Include="main_home.css" />
+    <Content Include="main_home.html" />
+    <Content Include="map.html" />
+    <Content Include="Mental.html" />
+    <Content Include="music.css" />
+    <Content Include="National_anthem.html" />
+    <Content Include="national_anthem.mp3" />
+    <Content Include="Noakhali.aspx" />
+    <Content Include="Pabna.aspx" />
+    <Content Include="pabna.css" />
+    <Content Include="Raj_div.css" />
+    <Content Include="Raj_div.html" />
     <Content Include="Registration.aspx" />
     <Content Include="Registration.css" />
     <Content Include="Web.config" />
-    <Content Include="Home.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutBangladesh.aspx.cs">
+      <DependentUpon>AboutBangladesh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutBangladesh.aspx.designer.cs">
+      <DependentUpon>AboutBangladesh.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Again.aspx.cs">
       <DependentUpon>Again.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -110,19 +150,26 @@
     <Compile Include="Again.aspx.designer.cs">
       <DependentUpon>Again.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Noakhali.aspx.cs">
+      <DependentUpon>Noakhali.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Noakhali.aspx.designer.cs">
+      <DependentUpon>Noakhali.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pabna.aspx.cs">
+      <DependentUpon>Pabna.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pabna.aspx.designer.cs">
+      <DependentUpon>Pabna.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration.aspx.cs">

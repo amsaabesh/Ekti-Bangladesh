@@ -1,0 +1,27 @@
+﻿body {margin:0;
+      background:#d4d3d3;
+}
+.main {margin-bottom:10px;
+       padding-bottom:10px;
+}
+.main:hover{
+    box-shadow:rgba(0,0,0,0.4);
+}
+.pnl_txt {
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+.button {
+    color: #fbfcfd;
+    padding: 20px 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    cursor:pointer;
+}
+.bu:hover {
+    box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+}
+.about{
+    padding-left:10px;
+}

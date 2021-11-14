@@ -109,9 +109,9 @@
                                 <tr>
                                     <td class="auto-style6">&nbsp;</td>
                                     <td class="auto-style8">
-                                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Save" />
+                                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Log In" />
                                     </td>
-                                    <td class="auto-style9"><a href="Registration.aspx"><b><i><u><span class="auto-style11">Already Have An Account? Log in</span></u> </i></b></a></td>
+                                    <td class="auto-style9"><a href="Registration.aspx"><b><i><u><span class="auto-style11">Havn&#39;t Account Sign up</span></u> </i></b></a></td>
                                 </tr>
                                 <tr>
                                     <td class="auto-style6">&nbsp;</td>

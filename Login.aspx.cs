@@ -35,7 +35,7 @@ namespace Ekti_Bangladesh
             sdr = cmd.ExecuteReader();
             if (sdr.Read())
             {
-                Response.Redirect("Home.aspx");
+                Response.Redirect("main_home.html");
             }
             else
             {
