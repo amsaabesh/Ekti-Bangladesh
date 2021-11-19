@@ -16,12 +16,12 @@ namespace Ekti_Bangladesh
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("Home.aspx");
+            Response.Redirect("main_home.html");
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Home.aspx");
+            Response.Redirect("main_home.html");
         }
     }
 }

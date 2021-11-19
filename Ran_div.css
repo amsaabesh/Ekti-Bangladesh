@@ -5,7 +5,7 @@
 }
 
 section {
-    background-image: url('Image/home0.jpg');
+    background-image: url(https://images.assettype.com/prothomalo-english/import/media/2018/08/28/f1cd274e6fc2f0f014a3117551439051-409_PANCHAGARH-ROCKS-MUSEUM-PIC-05.jpg);
     height: 100vh;
     display: flex;
     justify-content: right;
@@ -118,7 +118,7 @@ section {
     #myUL li a {
         /*border: 1px solid #ddd;*/
         margin-top: -1px; /* Prevent double borders */
-        background-color: rgb(129,125,136);
+        background-color: rgb(180,168,156);
         padding: 12px;
         text-decoration: none;
         font-size: 18px;
@@ -127,14 +127,10 @@ section {
     }
 
         #myUL li a:hover:not(.header) {
-            background-color:rgb(246 211 211 / 0.05); /*#25bcff*/
+            background: linear-gradient(to top, rgb(180 168 156 / 0.6), rgb(238 231 224 / 0.4));
         }
 
 .abc {
     padding-top: 250px;
-    padding-right: 150px;
-}
-.log{
-    padding-right:700px;
-    padding-top:200px;
+    padding-right: 15px;
 }

@@ -5,7 +5,7 @@
 }
 
 section {
-    background-image: url('Image/home0.jpg');
+    background: url(https://dailyasianage.com/library/1445885546_6.jpg);
     height: 100vh;
     display: flex;
     justify-content: right;
@@ -13,22 +13,17 @@ section {
     overflow: hidden;
 }
 
-.btn {
-    height:20px;
-    width:20px;
-    color: #fbfcfd;
-    padding: 10px 25px;
-    background: transparent;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    cursor: pointer;
+.def {
+    padding-right: 1200px;
+    padding-top: 10px;
+    font-size: 50px;
+    color:white;
+}
+.abc {
+    padding-top: 250px;
+    padding-right: 150px;
 }
 
-.def {
-    padding-right: 200px;
-    padding-top: 90px;
-    font-size: 50px;
-}
 /*.he{
     justify-content:left;
     padding-top:110px;
@@ -62,6 +57,7 @@ section {
         align-content: center;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        color:white;
     }
 
     .box ul {
@@ -118,23 +114,15 @@ section {
     #myUL li a {
         /*border: 1px solid #ddd;*/
         margin-top: -1px; /* Prevent double borders */
-        background-color: rgb(129,125,136);
+        background-color: rgb(128,13,0);
         padding: 12px;
         text-decoration: none;
         font-size: 18px;
-        color: black;
+        color: white;
         display: block
     }
 
         #myUL li a:hover:not(.header) {
-            background-color:rgb(246 211 211 / 0.05); /*#25bcff*/
+            background-color: rgb(236 97 3/ 0.2);
         }
 
-.abc {
-    padding-top: 250px;
-    padding-right: 150px;
-}
-.log{
-    padding-right:700px;
-    padding-top:200px;
-}

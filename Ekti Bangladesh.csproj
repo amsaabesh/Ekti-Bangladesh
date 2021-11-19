@@ -73,8 +73,23 @@
     <Content Include="Aboutbd.css" />
     <Content Include="Again.aspx" />
     <Content Include="Again.css" />
-    <Content Include="Ctg_div.css" />
-    <Content Include="Ctg_div.html" />
+    <Content Include="Dhaka.aspx" />
+    <Content Include="Barishal.aspx" />
+    <Content Include="bar_div.css" />
+    <Content Include="bar_div.html" />
+    <Content Include="chittagong_div.css" />
+    <Content Include="chittagong_div.html" />
+    <Content Include="Durga_Sagar.html" />
+    <Content Include="bajra.html" />
+    <Content Include="Science_mu.html" />
+    <Content Include="syl-div.css" />
+    <Content Include="syl_div.html" />
+    <Content Include="Ran_div.css" />
+    <Content Include="Ran_div.html" />
+    <Content Include="Mym_div.css" />
+    <Content Include="Mym_div.html" />
+    <Content Include="Dha_div.html" />
+    <Content Include="Dha_div.css" />
     <Content Include="Hardinge.html" />
     <Content Include="history.css" />
     <Content Include="history.html" />
@@ -88,6 +103,7 @@
     <Content Include="Image\5.jpg" />
     <Content Include="Image\6.jpg" />
     <Content Include="Image\bubble.png" />
+    <Content Include="Image\Dhaka\bg1.jpg" />
     <Content Include="Image\Hidden.png" />
     <Content Include="Image\home0.jpg" />
     <Content Include="Image\home1.jpg" />
@@ -107,20 +123,27 @@
     <Content Include="Image\Home\9.jpg" />
     <Content Include="Image\Home\ctg\ctgmap.jpg" />
     <Content Include="Image\Home\ctg\noakhali\noakhali-map.jpg" />
+    <Content Include="Image\khu_div\bg1.jpg" />
     <Content Include="Image\loading.gif" />
     <Content Include="Image\loading3.gif" />
     <Content Include="Image\pause.png" />
     <Content Include="Image\play.png" />
+    <Content Include="Image\Raj div\bg1.jpg" />
     <Content Include="Image\Raj div\map.png" />
     <Content Include="Image\Raj div\pabna\hardinge.jpg" />
     <Content Include="Image\Raj div\pabna\jolojog.jpg" />
     <Content Include="Image\Raj div\pabna\mental.jpg" />
-    <Content Include="Image\Raj div\pabna\pabna_map.png" />
+    <Content Include="Image\Raj div\pabna\pabnabg.jpg" />
+    <Content Include="Image\Raj div\pabna\pabnabg1.jpg" />
+    <Content Include="Image\Raj div\pabna\pabna_map-removebg.png" />
     <Content Include="Image\show.png" />
+    <Content Include="Khu_div.css" />
+    <Content Include="Khu_div.html" />
     <Content Include="Login.aspx" />
     <Content Include="Login.css" />
     <Content Include="main_home.css" />
     <Content Include="main_home.html" />
+    <Content Include="main_home.js" />
     <Content Include="map.html" />
     <Content Include="Mental.html" />
     <Content Include="music.css" />
@@ -149,6 +172,20 @@
     </Compile>
     <Compile Include="Again.aspx.designer.cs">
       <DependentUpon>Again.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dhaka.aspx.cs">
+      <DependentUpon>Dhaka.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dhaka.aspx.designer.cs">
+      <DependentUpon>Dhaka.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Barishal.aspx.cs">
+      <DependentUpon>Barishal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Barishal.aspx.designer.cs">
+      <DependentUpon>Barishal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
